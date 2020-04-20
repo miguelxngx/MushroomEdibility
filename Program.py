@@ -161,8 +161,8 @@ if __name__ == "__main__":
     y = encodeYs(dataset[:,0])
     samples = np.ones(len(dataset))
 
-    column_numbers = [5, 20, 22, 13, 3, 21]
-    #column_numbers = [3, 5, 9, 13, 14, 18, 20, 21, 22]
+    #column_numbers = [5, 20, 22, 13, 3, 21]
+    column_numbers = [3, 5, 9, 13, 14, 18, 20, 21, 22]
     #column_numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22]
     for number in column_numbers:
         append_column(number)
